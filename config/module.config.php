@@ -46,6 +46,10 @@ return array(
     ),
 
     'view_manager' => array(
+        // Load sub-namespaced modules templates from expected paths while using ZF >=2.3
+        'controller_map' => array(
+            'Acelaya' => true
+        ),
         'template_path_stack' => array(
             __DIR__ . '/../view',
         ),
