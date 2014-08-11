@@ -1,5 +1,6 @@
-INSTALL.txt
-LICENSE.txt
-README.txt
-demos/
-extras/documentation
+.idea
+.project
+.buildpath
+.settings
+.DS_Store
+vendor
