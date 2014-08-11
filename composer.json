@@ -1,0 +1,36 @@
+{
+    "name": "acelaya/composer-skeleton-module",
+    "description": "A Zend Framework 2 skeleton module enhanced and based on composer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alejandro Celaya",
+            "email": "alejandro@alejandrocelaya.com",
+            "homepage": "http://www.alejandrocelaya.com",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "zf2",
+        "module"
+    ],
+    "homepage": "",
+    "require": {
+        "php" : ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*",
+        "squizlabs/php_codesniffer": "1.*",
+        "zendframework/zendframework": ">=2.2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acelaya\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Acelaya\\Test\\": "test/"
+        }
+    }
+}
